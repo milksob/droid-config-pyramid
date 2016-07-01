@@ -9,4 +9,9 @@
 %define pixel_ratio 2.0
 # We assume most devices will
 %define have_modem 1
+
+%define android_config \
+#define QCOM_BSP 1\
+%{nil}
+
 %include droid-configs-device/droid-configs.inc
